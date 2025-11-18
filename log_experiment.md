@@ -26,7 +26,7 @@
 
 ### File Naming Example
 
-A recommended filename:
+A recommended file name:
 
 - `r1-s1-2025-11-18-08-58-clear.bag` means data was collected on 11/18/2025 at 8:58 AM, on road segment 1 - Vine St. Westbound, under clear weather conditions. 
 
@@ -57,4 +57,9 @@ A recommended filename:
 
 | Field Run 3          | Seg1         | Seg2          |Seg3       |Seg4       |Seg5           |Seg6       |Seg7           |Seg8       |Seg9            |Seg10          |
 |----------------------|--------------|---------------|-----------|-----------|---------------|-----------|---------------|-----------|----------------|---------------|
-
+| Date                 |2025-11-18    |2025-11-18     |2025-11-18 |2025-11-18 |2025-11-18     |2025-11-18 |2025-11-18     |2025-11-18 |2025-11-18      |2025-11-18     |
+| Start Time           | 17:22 PM     | 17:23 PM      | 17:24 PM  | 17:24 PM  | 17:27 PM      | 17:28 PM  | 17:31 PM      | 17:32 PM  | 17:33 PM       | 17:33 PM      |
+| Traffic Level        | L            |  L            | L         | L         | L             | L         | L             | L         | L              | L             |
+| Vehicle Speed        | < 20 mph     | < 20 mph      | < 20 mph  | < 20 mph  | < 20 mph      | < 20 mph  | < 20 mph      | < 20 mph  | < 20 mph       | < 20 mph      |
+| Weather              | Cloudy       | Cloudy        | Cloudy    | Cloudy    |  Cloudy       | Cloudy    | Cloudy        | Cloudy    | Cloudy         | Cloudy        |
+| ROS Bag File name    | r3-s1-2025-11-18-17-22-52-cloudy.bag  | ... | ... |... |... |... |... |... |... |...|
