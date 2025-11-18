@@ -2,7 +2,7 @@
 
 Dada Zhang
 
-11/16/2026
+11/17/2026
 
 Goal: Collect road condition data
 
@@ -31,3 +31,7 @@ The following road segments corresponding to Seg1 to Seg10
   - ~800 feet
 10. N 16th St. Southbound
   - ~600 feet
+  
+Field test:
+
+- See 'Field_Test.png' 
