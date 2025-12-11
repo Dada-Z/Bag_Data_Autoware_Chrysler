@@ -15,12 +15,8 @@ Field test:
 
 - See 'Field_Test.png' 
 
-The .bag data:
+The .bag data example (`r1-s5-2025-11-18-09-01-03-clear`):
 
-Camera
-LiDAR
-GPS
-IMU
-Odometry
-TF
-Audio
+- sample name: `sample_17_27s.bag`
+
+

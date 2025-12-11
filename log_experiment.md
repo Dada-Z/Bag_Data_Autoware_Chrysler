@@ -52,6 +52,7 @@
 A recommended file name:
 
 - `r1-s1-2025-11-18-08-58-clear.bag` means data was collected on 11/18/2025 at 8:58 AM, on road segment 1 - Vine St. Westbound, under clear weather conditions. 
+- `r1-s2` to `r1-s4` are **cloudy**. 
 
 
 ## Field Run Observation Table
