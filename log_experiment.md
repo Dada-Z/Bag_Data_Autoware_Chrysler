@@ -14,6 +14,29 @@
 | ROS Bag Recording    | platform.launch + Autoware.AI recording                         | Example: `2025-11-18-08-58-52.bag`                               |
 | ROS Bag Name         | Use short codes for Run + TOD + Segment + Date + Time + Weather + Condition | See naming scheme below.                             |
 
+
+### Field Street
+1. Vine St. (Kiewit Hall) Westbound
+  - ~780 feet
+2. N 16th St. Northbound
+  - ~600 feet
+3. W St. Westbound
+  - ~800 feet
+4. N 14th St. Southbound
+  - ~650 feet
+5. Vine St. (Henzlik Hall) Eastbound
+  - ~760 feet
+6. Vine St. (Kiewit Hall) Eastbound
+  - ~760 feet
+7. Vine St. (Henzlik Hall) Westbound
+  - ~760 feet
+8. N 14th St. Northbound
+  - ~650 feet
+9. W St. Eastbound
+  - ~800 feet
+10. N 16th St. Southbound
+  - ~600 feet
+
 ### Notes
 
 - **r1–r4** represent the four time categories (TOD):
