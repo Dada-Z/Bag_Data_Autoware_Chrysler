@@ -5,4 +5,7 @@ Open Terminal:
 - `roscore`
 - A new Terminal: `rosbag info NAME.bag`
 
-## Extract a sample from .bag 
+## Extract a sample from bag 
+
+
+## Extract images 
