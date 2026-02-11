@@ -56,6 +56,25 @@ The relationship of number of images, duration, and FPS is shown below.
 Play bag data and run the following code to obtain a video.
 - `ffmpeg -framerate 4.8 -i %*.jpg -c:v libx264 -pix_fmt yuv420p out_video.mp4` [^2]
 
+## Extract IMU
+Create `extract_imu.py` and use `data_raw` topic to extract IMU feature.
+- `roscore`
+- `rosrun imu_extractor extract_imu.py`
+
+## Extract GPS
+Using Python file to extract GPS data (change file path first in `.py` file), run following code:
+- `python3 extract_gps.py`
+
+The output is `.csv` file (two outputs). Using `bestpos_data.csv`
+
+## Merge GPS, IMU, and Images
+Load `gps_data.csv` and `imu_data.csv` and merge by `timestamp`.
+- `merged_gps_imu_data.csv`
+
+March with images:
+- define images path such as `/home/dev/data_analysis/images`
+- save the file as `matched_data.csv`
+
 
 [^1]: The output of `rostopic hz /camera_fl/image_raw`.
 [^2]: yuv420p is not a resolution. 
