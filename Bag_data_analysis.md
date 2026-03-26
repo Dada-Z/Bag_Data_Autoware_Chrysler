@@ -23,7 +23,9 @@ If the time is not this format, try this.
 - IMU (/imu/data_raw) 
 -	Speed (novatel/oem7/bestvel)
 -	GPS (/novatel/oem7/bestpos)
+
 ++ `novatel/oem7/inspva` and `novatel/oem7/bestpos` 
+
 - Images (/camera_fl/image_raw & /camera_fr/image_raw)
 
 ## Extract images 
