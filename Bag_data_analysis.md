@@ -19,6 +19,13 @@ Using the following command to obtain a sample for 10 seconds:
 If the time is not this format, try this. 
 - `"1763478080.863850 < t.to_sec() < 1763478090.863919"`
 
+## Key topics
+- IMU (/imu/data_raw) 
+-	Speed (novatel/oem7/bestvel)
+-	GPS (/novatel/oem7/bestpos)
+  - `novatel/oem7/inspva` and `novatel/oem7/bestpos` 
+- Images (/camera_fl/image_raw & /camera_fr/image_raw)
+
 ## Extract images 
 ### Install open-cv tool first.
 - `sudo apt install ros-noetic-cv-bridge python3-opencv`
@@ -89,8 +96,6 @@ Merge by `timestamp` to obtain a single file that contains gps, imu, speed, and 
 ++ `gps_data`, `imu_data`, and `vehicle_speed`
 ++ images are also merged by `timestamp`
 - `final_fused_dataset.csv`
-
-
 
 ## Rewrite all .py file to avoid path error
 
